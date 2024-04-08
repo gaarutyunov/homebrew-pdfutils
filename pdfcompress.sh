@@ -1,3 +1,5 @@
+#!/bin/bash
+
 bar_size=40
 bar_char_done="#"
 bar_char_todo="-"
