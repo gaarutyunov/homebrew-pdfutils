@@ -1,11 +1,30 @@
-# Gaarutyunov Pdfutils
+# PDF Utils
 
-## How do I install these formulae?
+## Prerequisites
 
-`brew install gaarutyunov/pdfutils/<formula>`
+Install [Brew](https://brew.sh/) package manager.
 
-Or `brew tap gaarutyunov/pdfutils` and then `brew install <formula>`.
+## Compression
 
-## Documentation
+### Installation
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+```shell
+brew install gaarutyunov/pdfutils/pdfcompress
+```
+
+### Usage
+
+For example, let's compress folder `docs` with resolution of `144` into folder `out`:
+```shell
+pdfcompress -d docs -r 144 -o out
+```
+
+For interactive mode use:
+```shell
+pdfcompress -i
+```
+
+For more details:
+```shell
+pdfcompress -h
+```
